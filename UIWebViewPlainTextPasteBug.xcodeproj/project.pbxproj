@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8725C101713C65100F4CE65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8725C0F1713C65100F4CE65 /* UIKit.framework */; };
+		B8725C121713C65100F4CE65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8725C111713C65100F4CE65 /* Foundation.framework */; };
+		B8725C141713C65100F4CE65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8725C131713C65100F4CE65 /* CoreGraphics.framework */; };
+		B8725C1A1713C65100F4CE65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8725C181713C65100F4CE65 /* InfoPlist.strings */; };
+		B8725C1C1713C65100F4CE65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8725C1B1713C65100F4CE65 /* main.m */; };
+		B8725C201713C65100F4CE65 /* JVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8725C1F1713C65100F4CE65 /* JVAppDelegate.m */; };
+		B8725C221713C65100F4CE65 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8725C211713C65100F4CE65 /* Default.png */; };
+		B8725C241713C65100F4CE65 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8725C231713C65100F4CE65 /* Default@2x.png */; };
+		B8725C261713C65100F4CE65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8725C251713C65100F4CE65 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8725C0C1713C65100F4CE65 /* UIWebViewPlainTextPasteBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewPlainTextPasteBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8725C0F1713C65100F4CE65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8725C111713C65100F4CE65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8725C131713C65100F4CE65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8725C171713C65100F4CE65 /* UIWebViewPlainTextPasteBug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewPlainTextPasteBug-Info.plist"; sourceTree = "<group>"; };
+		B8725C191713C65100F4CE65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8725C1B1713C65100F4CE65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8725C1D1713C65100F4CE65 /* UIWebViewPlainTextPasteBug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebViewPlainTextPasteBug-Prefix.pch"; sourceTree = "<group>"; };
+		B8725C1E1713C65100F4CE65 /* JVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JVAppDelegate.h; sourceTree = "<group>"; };
+		B8725C1F1713C65100F4CE65 /* JVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JVAppDelegate.m; sourceTree = "<group>"; };
+		B8725C211713C65100F4CE65 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B8725C231713C65100F4CE65 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B8725C251713C65100F4CE65 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8725C091713C65100F4CE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8725C101713C65100F4CE65 /* UIKit.framework in Frameworks */,
+				B8725C121713C65100F4CE65 /* Foundation.framework in Frameworks */,
+				B8725C141713C65100F4CE65 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8725C031713C65100F4CE65 = {
+			isa = PBXGroup;
+			children = (
+				B8725C151713C65100F4CE65 /* UIWebViewPlainTextPasteBug */,
+				B8725C0E1713C65100F4CE65 /* Frameworks */,
+				B8725C0D1713C65100F4CE65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8725C0D1713C65100F4CE65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8725C0C1713C65100F4CE65 /* UIWebViewPlainTextPasteBug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8725C0E1713C65100F4CE65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8725C0F1713C65100F4CE65 /* UIKit.framework */,
+				B8725C111713C65100F4CE65 /* Foundation.framework */,
+				B8725C131713C65100F4CE65 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8725C151713C65100F4CE65 /* UIWebViewPlainTextPasteBug */ = {
+			isa = PBXGroup;
+			children = (
+				B8725C1E1713C65100F4CE65 /* JVAppDelegate.h */,
+				B8725C1F1713C65100F4CE65 /* JVAppDelegate.m */,
+				B8725C161713C65100F4CE65 /* Supporting Files */,
+			);
+			path = UIWebViewPlainTextPasteBug;
+			sourceTree = "<group>";
+		};
+		B8725C161713C65100F4CE65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8725C171713C65100F4CE65 /* UIWebViewPlainTextPasteBug-Info.plist */,
+				B8725C181713C65100F4CE65 /* InfoPlist.strings */,
+				B8725C1B1713C65100F4CE65 /* main.m */,
+				B8725C1D1713C65100F4CE65 /* UIWebViewPlainTextPasteBug-Prefix.pch */,
+				B8725C211713C65100F4CE65 /* Default.png */,
+				B8725C231713C65100F4CE65 /* Default@2x.png */,
+				B8725C251713C65100F4CE65 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8725C0B1713C65100F4CE65 /* UIWebViewPlainTextPasteBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8725C291713C65100F4CE65 /* Build configuration list for PBXNativeTarget "UIWebViewPlainTextPasteBug" */;
+			buildPhases = (
+				B8725C081713C65100F4CE65 /* Sources */,
+				B8725C091713C65100F4CE65 /* Frameworks */,
+				B8725C0A1713C65100F4CE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewPlainTextPasteBug;
+			productName = UIWebViewPlainTextPasteBug;
+			productReference = B8725C0C1713C65100F4CE65 /* UIWebViewPlainTextPasteBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8725C041713C65100F4CE65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jive Software";
+			};
+			buildConfigurationList = B8725C071713C65100F4CE65 /* Build configuration list for PBXProject "UIWebViewPlainTextPasteBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8725C031713C65100F4CE65;
+			productRefGroup = B8725C0D1713C65100F4CE65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8725C0B1713C65100F4CE65 /* UIWebViewPlainTextPasteBug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8725C0A1713C65100F4CE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8725C1A1713C65100F4CE65 /* InfoPlist.strings in Resources */,
+				B8725C221713C65100F4CE65 /* Default.png in Resources */,
+				B8725C241713C65100F4CE65 /* Default@2x.png in Resources */,
+				B8725C261713C65100F4CE65 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8725C081713C65100F4CE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8725C1C1713C65100F4CE65 /* main.m in Sources */,
+				B8725C201713C65100F4CE65 /* JVAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8725C181713C65100F4CE65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8725C191713C65100F4CE65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8725C271713C65100F4CE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8725C281713C65100F4CE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8725C2A1713C65100F4CE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewPlainTextPasteBug/UIWebViewPlainTextPasteBug-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewPlainTextPasteBug/UIWebViewPlainTextPasteBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8725C2B1713C65100F4CE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewPlainTextPasteBug/UIWebViewPlainTextPasteBug-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewPlainTextPasteBug/UIWebViewPlainTextPasteBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8725C071713C65100F4CE65 /* Build configuration list for PBXProject "UIWebViewPlainTextPasteBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8725C271713C65100F4CE65 /* Debug */,
+				B8725C281713C65100F4CE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8725C291713C65100F4CE65 /* Build configuration list for PBXNativeTarget "UIWebViewPlainTextPasteBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8725C2A1713C65100F4CE65 /* Debug */,
+				B8725C2B1713C65100F4CE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8725C041713C65100F4CE65 /* Project object */;
+}
